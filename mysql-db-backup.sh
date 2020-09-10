@@ -7,7 +7,8 @@ echo '
 +------------------------------------------------------------------------+
 '
 
-date=`date +%F`
+# date=`date +%F`
+date=`date +%FT%T%Z`
 
 DB_BACKUP_PATH='PATH'
 MYSQL_HOST='host'
